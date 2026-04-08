@@ -1,0 +1,99 @@
+/* comentarios adicionados para eu entender melhor o 
+código, não são parte do estilo nem organização do código 
+só achei interassante colocar para estudar mesmo.  */
+
+header, nav, main, footer {
+    margin: 20px; /* Margem ao redor dos elementos */
+    padding: 10px; /* Espaçamento interno dos elementos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar profundidade */
+}
+
+header{
+    background-color: rgb(218, 218, 218); /* Cor de fundo */
+    color: rgb(197, 181, 145); /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+
+}
+
+.nav-bar /* Estilização do menu de navegação */ {
+    background-color: rgb(197, 181, 145);
+    color: rgb(218, 218, 218); 
+    padding: 5px; 
+    border-radius: 8px;
+}
+
+.nav-links /* estilização da lista de navegação */ {
+    display: flex; /* exibe os itens em linha */    
+    list-style-type: none; /* remove os marcadores da lista */
+    
+}
+
+nav ul li /* Estilização dos itens da lista de navegação */ {
+    display: inline; /*deixa os itens em linha */
+    margin-right: 15px; /* espaçamento entre os itens */
+}
+
+a /* Estilização dos links de navegação */ {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa os links em negrito */
+}
+
+a:hover /* Estilização dos links de navegação ao passar o mouse (função do :hover, não precisa clicar)*/ {
+    color: rgb(218, 218, 218); /* Cor dos links ao passar o mouse */
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado dos links ao passar o mouse */
+}
+
+main h1  {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 12px; 
+    margin-top: 20px; /* Espaçamento superior (top) do conteúdo principal */
+}
+
+main .criador-local p {
+    padding: 15px; /* Espaçamento interno do parágrafo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-color: rgb(211, 211, 211); 
+    border-radius: 8px; 
+    margin-bottom: 20px; /* Espaçamento inferior (bottom) do parágrafo */
+}
+
+main .historia p {
+    padding: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-color: rgb(211, 211, 211); 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+main .regras p {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-color: rgb(211, 211, 211); 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+footer {
+    background-color: rgb(197, 181, 145);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 13px; /* Tamanho da fonte do rodapé */
+
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.219); /* Sombra do texto do rodapé */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto do rodapé */
+    border-radius: 8px;
+}
